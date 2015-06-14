@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<Resource id="datasource.h2" type="javax.sql.DataSource">
+		JdbcDriver org.h2.Driver
+		JdbcUrl jdbc:h2:tcp://localhost/C:\\andrei\\softwares\\h2-1.4.187\\dbs\\testapp
+		UserName sa
+		Password sa
+		jtaManaged = true
+		testOnBorrow = true
+		validationQuery = SELECT 1 FROM DUAL
+	</Resource>
+</resources>
